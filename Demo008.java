@@ -6,7 +6,7 @@ public class Demo008 {
         Scanner sc = new Scanner(System.in);
         String username,pass;
         do{
-            System.out.println("Hello Mallareddy Unversity, Please Login: ");
+            System.out.println("Hello Mallareddy University, Please Login: ");
             System.out.print("Enter username: ");
             username = sc.next();
             System.out.print("Enter password: ");
