@@ -1,3 +1,4 @@
+import java.util.*;
 public class Demo020 {
     public static void printFibonacciSeries(int n) {
         int firstTerm = 0, secondTerm = 1;
@@ -14,8 +15,11 @@ public class Demo020 {
         }
     }
         public static void main(String[] args) {
-            int n = 10; // Number of terms in the Fibonacci series
+            Scanner sc = new Scanner(System.in);
+            System.out.print("number of terms: ");
+            int n = sc.nextInt(); // Number of terms in the Fibonacci series
             printFibonacciSeries(n);
+            sc.close();
         
     }
 }
